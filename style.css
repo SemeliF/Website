@@ -1,0 +1,242 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("http://img.as-creation.com/app/items/s/935455.jpg");
+}
+
+
+
+.container {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+
+}
+
+.container a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/*Home Collection*/
+.dropdown_1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown_1 .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: #F6CCC0;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: serif
+}
+
+.container a:hover, .dropdown_1:hover .dropbtn {
+  background-color: #909090 ;
+}
+
+.dropdown_1-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: serif
+}
+
+.dropdown_1-content a {
+  float: none;
+  color: #F6CCC0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown_1-content a:hover {
+  background-color: #909090;
+}
+
+.dropdown_1:hover .dropdown_1-content {
+  display: block;
+}
+/*Women*/
+.dropdown_001 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown_001 .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: #F6CCC0;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: serif
+}
+
+.container a:hover, .dropdown_001:hover .dropbtn {
+  background-color: #909090;
+
+}
+
+.dropdown_001-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: serif
+}
+
+.dropdown_001-content a {
+  float: none;
+  color: #F6CCC0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_001-content a:hover {
+  background-color: #909090;
+}
+
+.dropdown_001:hover .dropdown_001-content {
+  display: block;
+}
+
+
+/*Men*/
+.dropdown_01 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown_01 .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: #F6CCC0;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: serif
+}
+
+.container a:hover, .dropdown_01:hover .dropbtn {
+  background-color: #909090;
+}
+
+.dropdown_01-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: serif
+}
+
+.dropdown_01-content a {
+  float: none;
+  color: #F6CCC0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_01-content a:hover {
+  background-color: #909090;
+}
+
+.dropdown_01:hover .dropdown_01-content {
+  display: block;
+}
+
+
+/*Young*/
+.dropdown_2 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown_2 .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: #F6CCC0;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: serif
+}
+
+.container a:hover, .dropdown_2:hover .dropbtn {
+  background-color: #909090;
+}
+
+.dropdown_2-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: serif;
+}
+
+.dropdown_2-content a {
+  float: none;
+  color: #F6CCC0;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown_2-content a:hover {
+  background-color: #909090;
+}
+
+.dropdown_2:hover .dropdown_2-content {
+  display: block;
+}
+
+
+/*Subscribe*/
+.dropdown_3 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown_3 .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: #F6CCC0;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: serif
+}
+
+.container a:hover, .dropdown_3:hover .dropbtn {
+  background-color: #909090;
+}
+
+
+.center { margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
