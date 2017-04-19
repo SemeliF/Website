@@ -15,6 +15,24 @@
  <input id="productId" type="hidden" name="product_id" value="91801160"/>
  <input id="productName" type="hidden" name="product_name" value="Red Hat"/>
  <div class="cta" id="addit"><a class="getstarted-button">Add to Cart!</a></div>
+  <script>
+    $("#addit").click(function(){
+  var productId = $("#productId").val();
+  var productName = $("#productName").val();
+  var productQuantity = $("#productQuantity").val();
+  var data = {
+    'product_id': productId,
+    'product_name': productName,
+    'quantity': productQuantity
+  };
+
+  $.post("/cart/add", data, showDone);
+ });
+ 
+ var showDone = function() {
+  /* Make something happen here*/
+ }
+  </script>
 Frayed Linen Blend Dress</a>
 </div>
 
