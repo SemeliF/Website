@@ -2,6 +2,9 @@
 <html>
 <head>
     <style>
+        .form {
+            text-align: center;
+        }
         .sub {
     background-color: #4E4847; /* Black */
     border-style: solid;
@@ -20,6 +23,7 @@
 <p>Type in your personal information to subscribe</p>
 
 <form>
+    <div class="form">
 First name :
 <br>
 <input type="text" name="firstname">
@@ -37,6 +41,7 @@ E-mail adress:
 <br>
 
 <button class="sub" onclick="myFunction()">Subscribe</button>
+    </div>
 
 <script>
 function myFunction() {
