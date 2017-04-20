@@ -269,15 +269,4 @@ body {
   background-color: #356fac; 
 }
 
-.sub {
-    background-color: #4E4847; /* Black */
-    border-style: solid;
-    border-color: white;
-    color: white;
-    font-family: "Bodoni MT";
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-}
+
