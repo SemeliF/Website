@@ -2,6 +2,27 @@
 <html>
 <head>
   <style>
+    .btn {
+  background: #faf6e6;
+  background-image: -webkit-linear-gradient(top, #faf6e6, #f5e9ce);
+  background-image: -moz-linear-gradient(top, #faf6e6, #f5e9ce);
+  background-image: -ms-linear-gradient(top, #faf6e6, #f5e9ce);
+  background-image: -o-linear-gradient(top, #faf6e6, #f5e9ce);
+  background-image: linear-gradient(to bottom, #faf6e6, #f5e9ce);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #665a46;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #0f161a 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
     h1 {
       font-family: "Bodoni MT";
     }
@@ -27,6 +48,15 @@
 </head>
 
   <body background="http://img.as-creation.com/app/items/s/935455.jpg">
+    
+<script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+
+    <button class="btn" onclick="goBack()">Go Back</button>
+  
     <h1 id="wo_dr"><center>Men's Trousers & Jeans</center></h1>
     
     <h2>Click on an image to add the item to your wishlist</h2>
@@ -50,14 +80,6 @@
     </table>
 
 
-<script>
-      function goBack() {
-        window.history.back();
-      }
-    </script>
-
-    <button onclick="goBack()">Go Back</button>
-  
 
   </body>
 </html>
