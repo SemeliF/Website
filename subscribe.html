@@ -2,6 +2,9 @@
 <html>
 <head>
     <style>
+        #mand {
+            color: red;
+        }
         h1 {
             font-family: "Bodoni MT";
         }
@@ -38,9 +41,10 @@
 <input type="text" name="lastname">
 <br>
 <br>
-        <h3>E-mail address :</h3>
+        <h3>E-mail address <p id="mand">**</p> :</h3>
 <input type="text" name"email">
 <br>
+        All (**) fields are mandatory
 <br>
 
 <button class="sub" onclick="myFunction()">Subscribe</button>
