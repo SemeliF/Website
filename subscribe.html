@@ -26,9 +26,9 @@
     </style>
     <script>
 function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
+    var x = document.forms["myForm"]["email"].value;
     if (x == "") {
-        alert("Name must be filled out");
+        alert("E-mail address must be filled out");
         return false;
     }
 }
@@ -40,9 +40,13 @@ function validateForm() {
 onsubmit="return validateForm()" method="post">
 First Name : <input type="text" name="fname">
     <br>
+    <br>
     Last Name : <input type="text" name="lname">
     <br>
-    E-mail Address : <input type="text" name="fname">
+    <br>
+    E-mail Address** : <input type="text" name="email">
+    <br>
+    <br>
     <br>
 <input type="submit" value="Submit">
 </form>
